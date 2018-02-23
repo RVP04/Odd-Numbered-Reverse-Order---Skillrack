@@ -10,7 +10,7 @@ public class Hello {
 	    //getting elements
         for(int i=0;i<n;i++)
             numbers[i]=sc.nextInt();
-            
+            //start from the last array and check for odd then print.
         for(int i = n-1;i>=0;i--)
         {
             if(numbers[i]%2!=0)
